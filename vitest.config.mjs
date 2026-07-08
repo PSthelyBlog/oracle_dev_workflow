@@ -1,0 +1,9 @@
+import { defineConfig } from "vitest/config";
+
+export default defineConfig({
+  test: {
+    include: ["**/*.{test,spec}.{js,jsx,ts,tsx,mjs,cjs}"],
+    exclude: ["**/node_modules/**", "**/.stryker-tmp/**"],
+    environment: "node",
+  },
+});

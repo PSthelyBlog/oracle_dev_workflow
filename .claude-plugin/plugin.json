@@ -1,0 +1,11 @@
+{
+  "name": "oracle-dev-workflow",
+  "version": "1.0.0",
+  "description": "Gated development lifecycle that orchestrates seven plugins (intent-contract, test-oracle, productivity, product-management, engineering, commit-commands, feature-dev) into one verified chain of trust: intent → contract → oracles → code",
+  "author": {
+    "name": "Philippe Sthely",
+    "email": "sthely.philippe@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["workflow", "lifecycle", "intent-contract", "test-oracle", "mutation-testing", "gates"]
+}
