@@ -26,7 +26,7 @@ Mechanical checks are computed by `scripts/gate.mjs` (once built); judgment chec
 - [x] 2026-07-08 · learnings: the gates caught their own builder twice — mutation run forced 19 new oracles (67.0 → 82.0), review found 4 gate-defeating bugs pre-ship; recurring enemy is the vacuous pass (empty changed-list, skeleton-greened spec, first-match judgment), each now pinned by a clause-tagged oracle; v2 candidates live in TASKS.md Someday (hooks, CI gate, waiver revisit)
 - [x] 2026-07-08 · operate → done — learnings recorded; feature closed
 
-- [ ] merged: push of main to origin (github.com/PSthelyBlog/oracle_dev_workflow) prepared but pending — Claude's push was permission-gated; run `git push -u origin main` to complete, then check this line with the date
+- [x] 2026-07-08 · merged: main published to origin (github.com/PSthelyBlog/oracle_dev_workflow) — pushed manually by Philippe
 
 ## Notes
 
