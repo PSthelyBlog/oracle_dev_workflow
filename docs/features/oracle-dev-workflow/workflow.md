@@ -2,7 +2,7 @@
 slug: oracle-dev-workflow
 title: oracle-dev-workflow plugin v1
 track: feature
-phase: ship
+phase: done
 created: 2026-07-08
 ---
 
@@ -21,7 +21,10 @@ Mechanical checks are computed by `scripts/gate.mjs` (once built); judgment chec
 - [x] 2026-07-08 · review: clean — code review surfaced 4 gate-defeating bugs, all fixed and re-verified (judgment checks now last-wins; ship no longer self-gates; changed-modules survive micro-commits; intake skeleton can no longer green the define gate); plugin structure validation PASS
 - [x] 2026-07-08 · verify → ship — gate green: mutation 81.97 ≥ 80 raw, traceability chain closed, review clean after 4 fixes
 - [x] 2026-07-08 · deploy-checklist: complete (57/57 oracles green; mutation 81.97 ≥ 80; plugin-validator PASS; README states the seven required plugins; no secrets; dev artifacts gitignored; docs/WORKFLOW.md current)
-- [ ] ship → operate — checklist complete, merged
+- [x] 2026-07-08 · merged: main@844b2e1 (local repo, no remote — push/PR and clean_gone skipped, rerun /oracle-dev-workflow:ship after adding a remote if a PR is wanted)
+- [x] 2026-07-08 · ship → operate — checklist complete, merged locally
+- [x] 2026-07-08 · learnings: the gates caught their own builder twice — mutation run forced 19 new oracles (67.0 → 82.0), review found 4 gate-defeating bugs pre-ship; recurring enemy is the vacuous pass (empty changed-list, skeleton-greened spec, first-match judgment), each now pinned by a clause-tagged oracle; v2 candidates live in TASKS.md Someday (hooks, CI gate, waiver revisit)
+- [x] 2026-07-08 · operate → done — learnings recorded; feature closed
 
 ## Notes
 
