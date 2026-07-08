@@ -1,0 +1,16 @@
+{
+  "name": "psthelyblog-plugins",
+  "description": "Philippe's plugins — oracle-dev-workflow and future tools",
+  "owner": {
+    "name": "Philippe Sthely",
+    "email": "sthely.philippe@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "oracle-dev-workflow",
+      "description": "Gated development lifecycle orchestrating seven plugins into one verified chain of trust: intent → contract → oracles → code",
+      "source": "./",
+      "category": "workflow"
+    }
+  ]
+}
